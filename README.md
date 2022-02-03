@@ -7,8 +7,10 @@
 /    Y    \/    |    \     \____ /    |    \/ /_/ / /_/ | |  | \/\  ___/ \___ \ \___ \   /        \  |_> >  <_> |  <_> )  | \  ___/|  | \/
 \____|__  /\____|__  /\______  / \____|__  /\____ \____ | |__|    \___  >____  >____  > /_______  /   __/ \____/ \____/|__|  \___  >__|   
         \/         \/        \/          \/      \/    \/             \/     \/     \/          \/|__|                           \/       
+ 
+ ~ by Abhinandan Khurana
  </pre>                                                                                                                                         
                                                                               
-~ by Abhinandan Khurana
+
 
 This is a Python based command line MAC Address Spoofer utility for LINUX systems, which takes input as an argument for the exact interface you wish to modify the MAC Address for and changes the MAC Address.
