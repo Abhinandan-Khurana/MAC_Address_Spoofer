@@ -17,7 +17,7 @@ def arguments_func():
 		return options
 
 def mac_changer(interface, new_mac):
-	print("\033[1;34m Your current MAC address is: " + str(subprocess.check_output(["ifconfig", interface]).split()[11][0:17]))
+	#print("\033[1;34m Your current MAC address is: " + str(subprocess.check_output(["ifconfig", interface]).split()[11][0:17]))
 	print("\033[1;33m [+] Changing MAC address for " + interface + " to " + new_mac)
 	subprocess.call(["ifconfig", interface, "down"])
 	subprocess.call(["ifconfig",interface,"hw","ether",new_mac])
