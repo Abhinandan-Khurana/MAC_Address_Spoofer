@@ -14,4 +14,17 @@
 
 
 This is a Python based command line MAC Address Spoofer utility for LINUX systems, which takes input as an argument for the exact interface you wish to modify the MAC Address for and changes the MAC Address.
+
+
+
+##  How to use?
+
+<pre>
+sudo python mac_changer.py --help   --> for help menu
+
+sudo python mac_changer.py -i [INTERFACE] -m [NEW_MAC]
+
+eg., sudo python mac_changer.py -i eth0 -m 00:11:22:33:44:55
+</pre>
+
 __________________________________________________________________________________________________________________________________________________________________________________
